@@ -1,0 +1,10 @@
+main:
+  - title: "Tutti gli articoli"
+    url: /list/
+side:
+  - title: "Tutti gli articoli"
+    url: /list/
+  - title: "Articoli per parola chiave"
+    url: /tags/
+  - title: "Torna al autoScrib"
+    url: https://autoscrib.com

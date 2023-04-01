@@ -1,0 +1,47 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+.thumbnail-container {
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.thumbnail-container img {
+  margin-top: -11.5%;
+  margin-bottom: -11.5%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+.featureRowPic {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.inline {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+/* system typefaces */
+$serif: Georgia, Times, serif;
+$sans-serif: "Quicksand";
+$monospace: Monaco, Consolas, "Lucida Console", monospace;
+
+$text-color: #183153;
+$masthead-link-color: #1e517b;
+$link-color: #1e517b;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

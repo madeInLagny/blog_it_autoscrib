@@ -1,0 +1,103 @@
+{% assign date_items = date_english | split: " " %}
+{% assign date_italian = "" %}
+
+{% for i in date_items %}
+{% assign word = i | remove: "," | remove: "-" %}
+{% assign ponctuation = i | remove: word %}
+{% case word %}
+
+{% comment %} Convert days {% endcomment %}
+{% when "Monday" %}
+{% assign date_italian = date_italian | append: "lunedì" %}
+{% when "Tuesday" %}
+{% assign date_italian = date_italian | append: "martedì" %}
+{% when "Wednesday" %}
+{% assign date_italian = date_italian | append: "mercoledì" %}
+{% when "Thursday" %}
+{% assign date_italian = date_italian | append: "giovedì" %}
+{% when "Friday" %}
+{% assign date_italian = date_italian | append: "venerdì" %}
+{% when "Saturday" %}
+{% assign date_italian = date_italian | append: "sabato" %}
+{% when "Sunday" %}
+{% assign date_italian = date_italian | append: "domenica" %}
+
+{% comment %} Convert days in short notation {% endcomment %}
+{% when "Mon" %}
+{% assign date_italian = date_italian | append: "lun" %}
+{% when "Tue" %}
+{% assign date_italian = date_italian | append: "mar" %}
+{% when "Wed" %}
+{% assign date_italian = date_italian | append: "mer" %}
+{% when "Thu" %}
+{% assign date_italian = date_italian | append: "gio" %}
+{% when "Fri" %}
+{% assign date_italian = date_italian | append: "ven" %}
+{% when "Sat" %}
+{% assign date_italian = date_italian | append: "sab" %}
+{% when "Sun" %}
+{% assign date_italian = date_italian | append: "dom" %}
+
+{% comment %} Convert months {% endcomment %}
+{% when "January" %}
+{% assign date_italian = date_italian | append: "gennaio" %}
+{% when "February" %}
+{% assign date_italian = date_italian | append: "febbraio" %}
+{% when "March" %}
+{% assign date_italian = date_italian | append: "marzo" %}
+{% when "April" %}
+{% assign date_italian = date_italian | append: "aprile" %}
+{% when "May" %}
+{% assign date_italian = date_italian | append: "maggio" %}
+{% when "June" %}
+{% assign date_italian = date_italian | append: "giugno" %}
+{% when "July" %}
+{% assign date_italian = date_italian | append: "luglio" %}
+{% when "August" %}
+{% assign date_italian = date_italian | append: "agosto" %}
+{% when "September" %}
+{% assign date_italian = date_italian | append: "settembre" %}
+{% when "October" %}
+{% assign date_italian = date_italian | append: "ottobre" %}
+{% when "November" %}
+{% assign date_italian = date_italian | append: "novembre" %}
+{% when "December" %}
+{% assign date_italian = date_italian | append: "dicembre" %}
+
+{% comment %} Convert months in short notation {% endcomment %}
+{% when "Jan" %}
+{% assign date_italian = date_italian | append: "genn." %}
+{% when "Feb" %}
+{% assign date_italian = date_italian | append: "febbr." %}
+{% when "Mar" %}
+{% assign date_italian = date_italian | append: "mar." %}
+{% when "Apr" %}
+{% assign date_italian = date_italian | append: "apr." %}
+{% when "May" %}
+{% assign date_italian = date_italian | append: "magg." %}
+{% when "Jun" %}
+{% assign date_italian = date_italian | append: "giugno" %}
+{% when "Jul" %}
+{% assign date_italian = date_italian | append: "luglio" %}
+{% when "Aug" %}
+{% assign date_italian = date_italian | append: "ag." %}
+{% when "Sept" %}
+{% assign date_italian = date_italian | append: "sett." %}
+{% when "Oct" %}
+{% assign date_italian = date_italian | append: "ott." %}
+{% when "Nov" %}
+{% assign date_italian = date_italian | append: "nov" %}
+{% when "Dec" %}
+{% assign date_italian = date_italian | append: "dic" %}
+
+{% else %}
+{% assign date_italian = date_italian | append: word %}
+
+{% endcase %}
+{% assign date_italian = date_italian | append: ponctuation | append: " " %}
+{% endfor %}
+
+{% assign date_italian = date_italian | strip %}
+{% assign first_char = date_italian | truncate: 1, "" %}
+{% assign first_char_upcase = first_char | upcase %}
+{% assign date_italian = date_italian | replace_first: first_char, first_char_upcase %}
