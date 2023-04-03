@@ -31,8 +31,6 @@ Un'altra applicazione della trascrizione da suono a testo è nella traduzione li
   </figcaption>
 </figure>
 
-
-
 La trascrizione da audio a testo può essere utilizzata anche per creare sottotitoli e didascalie per i video. Ciò è particolarmente importante per le persone non udenti o con problemi di udito, ma può essere utile anche per le persone che guardano video in ambienti rumorosi o per coloro che stanno imparando una nuova lingua.
 
 Nonostante i suoi numerosi vantaggi, la trascrizione da suono a testo non è priva di limiti. Una delle maggiori sfide è la trascrizione accurata del parlato con accenti, dialetti o lingue diversi. Questo è un compito complesso che richiede algoritmi avanzati e modelli di apprendimento automatico per essere superato.
