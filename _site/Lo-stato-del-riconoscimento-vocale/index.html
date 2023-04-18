@@ -1,0 +1,676 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="it" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Lo stato del riconoscimento vocale - autoScrib Blog</title>
+<meta name="description" content="La trascrizione dal suono al testo, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="autoScrib Blog">
+<meta property="og:title" content="Lo stato del riconoscimento vocale">
+<meta property="og:url" content="http://localhost:4000/Lo-stato-del-riconoscimento-vocale/">
+
+
+  <meta property="og:description" content="La trascrizione dal suono al testo, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/posts/20230403-hero.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2023-04-03T00:00:00+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Lo-stato-del-riconoscimento-vocale/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="autoScrib Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/logo/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/logo/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/images/logo/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/images/logo/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+</style>
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="https://autoscrib.com"><img src="/assets/images/icon512.png" alt="Blog"></a>
+        
+        <!-- <a class="site-title" href="/">
+          Blog
+          
+        </a> -->
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/list/">Tutti gli articoli</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/list/"><span class="nav__sub-title">Tutti gli articoli</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/tags/"><span class="nav__sub-title">Articoli per parola chiave</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="https://autoscrib.com"><span class="nav__sub-title">Torna al autoScrib</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="Lo stato del riconoscimento vocale">
+    
+    <meta itemprop="description" content="La trascrizione dal suono al testo, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente.">
+    
+    
+    <meta itemprop="datePublished" content="2023-04-03T00:00:00+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+      <header>
+        <h1 id="page-title" class="page__title p-name" itemprop="headline">
+          <a href="http://localhost:4000/Lo-stato-del-riconoscimento-vocale/" class="u-url" itemprop="url"><p>Lo stato del riconoscimento vocale
+
+          </a>
+        </h1>
+        
+
+<p class="page__meta">
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  <span class="page__meta-date">
+    <i class="far fa-calendar-alt"
+      aria-hidden="true"></i>
+    <time datetime="2023-04-03T00:00:00+02:00">3 apr. 2023</time>
+  </span>
+  
+
+  <span class="page__meta-sep"></span>
+
+  
+  
+  
+
+  <span class="page__meta-readtime">
+    <i class="far fa-clock"
+      aria-hidden="true"></i>
+     2 minuto/i di lettura  </span>
+      
+</p>
+
+      </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <figure>
+<img src="http://localhost:4000/assets/images/posts/20230403-hero.jpg" alt="Una donna guarda il suo telefono mentre è seduta alla sua scrivania" class="full" loading="lazy" />
+<figcaption style="color:grey; font-size:10px;">Foto di <a href="https://unsplash.com/@brucemars">Bruce Mars</a> su <a href="https://unsplash.com">Unsplash</a>
+  </figcaption>
+</figure>
+
+<p><em><a href="https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/">La trascrizione dal suono al testo</a>, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente. È una tecnologia che è diventata sempre più popolare negli ultimi anni grazie alle sue numerose applicazioni in vari campi.
+Questo post fornisce una panoramica dello sviluppo e dell’utilizzo della tecnologia nel 2023</em></p>
+
+<p>Uno degli usi principali della trascrizione da suono a testo è per la dettatura. Questa tecnologia è stata un punto di svolta per le persone che hanno bisogno di dettare documenti lunghi, come professionisti medici, avvocati e giornalisti. Permette loro di esprimere ad alta voce i loro pensieri e le loro idee mentre il software trascrive le loro parole in testo.</p>
+
+<p>La trascrizione da suono a testo viene utilizzata anche nel campo dell’accessibilità. Per le persone non udenti o con problemi di udito, questa tecnologia può essere un vero toccasana. Consente loro di comprendere le parole pronunciate in tempo reale, il che può essere essenziale in molte situazioni, come riunioni di lavoro, aule o eventi pubblici.</p>
+
+<p>Un’altra applicazione della trascrizione da suono a testo è nella traduzione linguistica. Con l’aiuto della tecnologia di riconoscimento vocale, le barriere linguistiche possono essere superate, consentendo a persone di paesi diversi di comunicare tra loro più facilmente. Ciò può essere particolarmente utile in settori come gli affari internazionali o la diplomazia.</p>
+
+<figure>
+<img src="http://localhost:4000/assets/images/posts/20230403-caption.jpg" alt="Una donna guarda il suo telefono mentre è seduta alla sua scrivania" class="full" loading="lazy" />
+<figcaption style="color:grey; font-size:10px;">Foto di <a href="https://unsplash.com/@macroman">Immo Wegmann</a> su <a href="https://unsplash.com">Unsplash</a>
+  </figcaption>
+</figure>
+
+<p>La trascrizione da audio a testo può essere utilizzata anche per creare sottotitoli e didascalie per i video. Ciò è particolarmente importante per le persone non udenti o con problemi di udito, ma può essere utile anche per le persone che guardano video in ambienti rumorosi o per coloro che stanno imparando una nuova lingua.</p>
+
+<p>Nonostante i suoi numerosi vantaggi, la trascrizione da suono a testo non è priva di limiti. Una delle maggiori sfide è la trascrizione accurata del parlato con accenti, dialetti o lingue diversi. Questo è un compito complesso che richiede algoritmi avanzati e modelli di apprendimento automatico per essere superato.</p>
+
+<p>Nel complesso, la tecnologia di trascrizione da suono a testo ha rivoluzionato il modo in cui comunichiamo e interagiamo gli uni con gli altri. Ha reso le informazioni più accessibili a persone che potrebbero essere state precedentemente escluse da determinate attività o eventi e ha aperto nuove opportunità di scambio commerciale e culturale in tutto il mondo.</p>
+
+<h2 id="come-testare-la-tecnologia-di-trascrizione-vocale">Come testare la tecnologia di trascrizione vocale.</h2>
+
+<p><a href="https://autoscrib.com/">autoScrib</a> è una soluzione di trascrizione semplice ed efficiente. Trascrive fedelmente il parlato e funziona su un computer o uno smartphone. A differenza di altri prodotti, <a href="https://autoscrib.com/">autoScrib</a> consente di salvare tutti i testi trascritti in una directory e di accedervi da qualsiasi dispositivo.
+Prova gratuitamente la tecnologia di trascrizione vocale su <a href="https://autoscrib.com/">autoscrib.com</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#technologia" class="page__taxonomy-item p-category" rel="tag">technologia</a><span class="sep">, </span>
+    
+      <a href="/tags/#trascrizione" class="page__taxonomy-item p-category" rel="tag">trascrizione</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+<p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Aggiornato:</strong> <time
+        datetime="2023-04-03T00:00:00+02:00">3 apr. 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Condividi</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Lo+stato+del+riconoscimento+vocale%20http%3A%2F%2Flocalhost%3A4000%2FLo-stato-del-riconoscimento-vocale%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Condividi Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FLo-stato-del-riconoscimento-vocale%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Condividi Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FLo-stato-del-riconoscimento-vocale%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Condividi LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/Riconoscimento-vocale-AI-per-le-persone-con-difficolt%C3%A0-di-apprendimento/" class="pagination--pager" title="Riconoscimento vocale: AI per le persone con difficoltà di apprendimento
+">Precedente</a>
+    
+    
+      <a href="/Ecco-perch%C3%A9-dovresti-usare-l'intelligenza-artificiale-nelle-tue-riunioni/" class="pagination--pager" title="Ecco perché dovresti usare l’intelligenza artificiale nelle tue riunioni.
+">Prossima</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+  <div class="page__related">
+    <h2 class="page__related-title">Potrebbe Piacerti Anche
+    </h2>
+    <div class="grid__wrapper">
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/20230418-hero.jpg" alt="" loading="lazy">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Ecco-cosa-rende-un-buon-assistente-vocale/" rel="permalink">Ecco cosa rende un buon assistente vocale
+</a>
+      
+    </h2>
+    
+
+<p class="page__meta">
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  <span class="page__meta-date">
+    <i class="far fa-fw fa-calendar-alt"
+      aria-hidden="true"></i>
+    <time datetime="2023-04-18T00:00:00+02:00">18 apr. 2023</time>
+  </span>
+  
+
+  <span class="page__meta-sep"></span>
+
+  
+  
+  
+
+  <span class="page__meta-readtime">
+    <i class="far fa-fw fa-clock"
+      aria-hidden="true"></i>
+     4 minuto/i di lettura  </span>
+      
+</p>
+
+
+    
+
+    <p class="archive__item-excerpt" itemprop="description">La facilità d’uso del riconoscimento vocale non deve mettere in ombra le tecnologie avanzate che utilizza: algoritmo di riconoscimento vocale, capacità di ri...</p>
+  </article>
+</div>
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/20230409-hero.jpg" alt="" loading="lazy">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Ecco-perch%C3%A9-dovresti-usare-l'intelligenza-artificiale-nelle-tue-riunioni/" rel="permalink">Ecco perché dovresti usare l’intelligenza artificiale nelle tue riunioni.
+</a>
+      
+    </h2>
+    
+
+<p class="page__meta">
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  <span class="page__meta-date">
+    <i class="far fa-fw fa-calendar-alt"
+      aria-hidden="true"></i>
+    <time datetime="2023-04-09T00:00:00+02:00">9 apr. 2023</time>
+  </span>
+  
+
+  <span class="page__meta-sep"></span>
+
+  
+  
+  
+
+  <span class="page__meta-readtime">
+    <i class="far fa-fw fa-clock"
+      aria-hidden="true"></i>
+     1 minuto/i di lettura  </span>
+      
+</p>
+
+
+    
+
+    <p class="archive__item-excerpt" itemprop="description">Il 2023 ha già visto molte nuove innovazioni nell’IA. È più chiaro che mai che l’adozione di nuovi strumenti per riunioni AI può migliorare la collaborazione...</p>
+  </article>
+</div>
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/20230328-hero.webp" alt="" loading="lazy">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Riconoscimento-vocale-AI-per-le-persone-con-difficolt%C3%A0-di-apprendimento/" rel="permalink">Riconoscimento vocale: AI per le persone con difficoltà di apprendimento
+</a>
+      
+    </h2>
+    
+
+<p class="page__meta">
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  <span class="page__meta-date">
+    <i class="far fa-fw fa-calendar-alt"
+      aria-hidden="true"></i>
+    <time datetime="2023-03-28T00:00:00+02:00">28 mar. 2023</time>
+  </span>
+  
+
+  <span class="page__meta-sep"></span>
+
+  
+  
+  
+
+  <span class="page__meta-readtime">
+    <i class="far fa-fw fa-clock"
+      aria-hidden="true"></i>
+     2 minuto/i di lettura  </span>
+      
+</p>
+
+
+    
+
+    <p class="archive__item-excerpt" itemprop="description">La tecnologia di trascrizione orale derivata dall’intelligenza artificiale (AI), chiamata anche riconoscimento vocale o dettatura assistita, consente di scri...</p>
+  </article>
+</div>
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/20221114-hero.jpg" alt="" loading="lazy">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/7-modi-per-rendere-le-riunioni-e-i-corsi-di-formazione-pi%C3%B9-produttivi/" rel="permalink">7 modi per rendere le riunioni e i corsi di formazione più produttivi
+</a>
+      
+    </h2>
+    
+
+<p class="page__meta">
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  <span class="page__meta-date">
+    <i class="far fa-fw fa-calendar-alt"
+      aria-hidden="true"></i>
+    <time datetime="2022-11-14T00:00:00+01:00">14 nov 2022</time>
+  </span>
+  
+
+  <span class="page__meta-sep"></span>
+
+  
+  
+  
+
+  <span class="page__meta-readtime">
+    <i class="far fa-fw fa-clock"
+      aria-hidden="true"></i>
+     1 minuto/i di lettura  </span>
+      
+</p>
+
+
+    
+
+    <p class="archive__item-excerpt" itemprop="description">La tecnologia di riconoscimento vocale sviluppata da autoScrib ti aiuta ad aumentare la tua produttività durante le riunioni, la formazione faccia a faccia o...</p>
+  </article>
+</div>
+      
+    </div>
+  </div>
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Inserisci termini di ricerca..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Segui:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.instagram.com/autoscrib_it/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 autoScrib Blog. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-18T10:01:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">autoScrib Blog</title><subtitle>Blog di riconoscimento vocale e intelligenza artificiale (AI). Come usarli per migliorare la tua produttività.</subtitle><entry><title type="html">Ecco cosa rende un buon assistente vocale</title><link href="http://localhost:4000/Ecco-cosa-rende-un-buon-assistente-vocale/" rel="alternate" type="text/html" title="Ecco cosa rende un buon assistente vocale" /><published>2023-04-18T00:00:00+02:00</published><updated>2023-04-18T00:00:00+02:00</updated><id>http://localhost:4000/Ecco%20cosa%20rende%20un%20buon%20assistente%20vocale</id><content type="html" xml:base="http://localhost:4000/Ecco-cosa-rende-un-buon-assistente-vocale/">&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20230418-hero.jpg&quot; alt=&quot;several people around a table&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;figcaption style=&quot;color:grey; font-size:10px;&quot;&gt;Foto di &lt;a href=&quot;https://unsplash.com/@jasonrosewell&quot;&gt;Jason Rosewell&lt;/a&gt; su &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;La facilità d’uso del riconoscimento vocale non dovrebbe mettere in ombra le tecnologie avanzate che utilizza. Algoritmo di riconoscimento vocale, capacità di rilevare accenti e dialetto, gestione del ‘rumore di fondo’, velocità di trascrizione del dettato… una soluzione di trascrizione vocale ad alte prestazioni non deve nulla al caso.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Il software di riconoscimento vocale si basa su 3 categorie di tecnologia: “Speech to Text” (STT), “Natural Language Processing” (NLP) e intelligenza artificiale (IA).&lt;/p&gt;
+
+&lt;h2 id=&quot;speech-to-text-stt-identificazione-e-trascrizione-della-voce-in-testo&quot;&gt;Speech to Text (STT), identificazione e trascrizione della voce in testo&lt;/h2&gt;
+&lt;p&gt;Una volta avviato il riconoscimento vocale utilizzando la parola chiave, è necessario utilizzare la voce. Per questo, è prima indispensabile registrarlo e digitalizzarlo con la tecnologia Speech to Text (nota anche come riconoscimento vocale automatico).
+Durante questa fase, la voce viene catturata in frequenze sonore (sotto forma di file audio, come musica o qualsiasi altro rumore) che possono essere utilizzate successivamente.
+A seconda dell’ambiente di ascolto, l’inquinamento acustico è presente o meno. Per migliorare la registrazione di tali frequenze e quindi contemporaneamente la loro affidabilità, possono essere effettuate diverse operazioni di elaborazione.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Normalizzazione per rimuovere picchi e cali nelle frequenze per armonizzare il tutto&lt;/li&gt;
+  &lt;li&gt;Soppressione del rumore di fondo per migliorare la qualità audio&lt;/li&gt;
+  &lt;li&gt;La suddivisione dei segmenti in fonemi (che sono unità distintive all’interno delle frequenze, espresse in millesimi di secondo, che permettono di distinguere le parole l’una dall’altra
+Le frequenze, una volta registrate, possono essere analizzate per associare ogni fonema a una parola oa un gruppo di parole per costituire un testo. Questo passaggio può essere svolto in diversi modi, ma un metodo in particolare è lo stato dell’arte oggi: il Machine Learning.
+Una sottoparte di questa tecnologia si chiama Deep Learning: un algoritmo che ricrea una rete neurale, in grado di analizzare una grande quantità di informazioni e costruire un database di associazioni tra frequenze e parole. Pertanto, ogni associazione creerà un neurone che verrà utilizzato per dedurre nuove corrispondenze.
+Pertanto, più informazioni ci sono, più il modello è statisticamente accurato e in grado di tenere conto del contesto generale per assegnare la parola migliore rispetto alle altre già definite.
+Limitare gli errori dell’STT è essenziale per ottenere le informazioni più affidabili per procedere ai passaggi successivi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nlp-natural-language-processing-traduzione-del-linguaggio-umano-in-linguaggio-macchina&quot;&gt;NLP (Natural Language Processing), traduzione del linguaggio umano in linguaggio macchina&lt;/h2&gt;
+&lt;p&gt;Completati i passaggi precedenti, i dati testuali vengono inviati direttamente al modulo NLP (Natural Language Processing). Lo scopo principale di questa tecnologia è analizzare la frase ed estrarre quanti più dati linguistici possibile.&lt;/p&gt;
+
+&lt;p&gt;Per fare ciò, inizia associando i tag alle parole della frase, questa si chiama tokenizzazione. Si tratta in realtà di “etichette” che vengono apposte su ogni parola per caratterizzarle. Ad esempio “Open” sarà definito come il verbo che definisce un’azione, “le” come determinante relativo a “Voice Development Kit” che è un nome proprio ma anche un COD ecc… e questo per ciascuno degli elementi della frase .
+Una volta individuati questi primi elementi, è necessario dare significato agli ordini risultanti dal riconoscimento vocale. Per questo vengono effettuate due analisi complementari.
+In primo luogo, l’analisi sintattica che mira a modellare la struttura della frase. Si tratta qui di individuare il posto delle parole all’interno del tutto ma anche la loro posizione relativa rispetto alle altre per comprenderne le relazioni.
+Per completare e finire, l’analisi semantica che, una volta individuata la natura e la posizione delle parole, cercherà di comprenderne il significato singolarmente ma anche quando sono assemblate nella frase per tradurre un’intenzione generale dell’utente.
+L’importanza della PNL nel riconoscimento vocale risiede nella sua capacità di tradurre elementi testuali (cioè parole e frasi) in ordini standardizzati, inclusi significato e intento, che possono essere interpretati dall’intelligenza artificiale associata ed eseguiti.&lt;/p&gt;
+
+&lt;h2 id=&quot;intelligenza-artificiale-alleata-necessaria-del-riconoscimento-vocale&quot;&gt;Intelligenza artificiale, alleata necessaria del riconoscimento vocale&lt;/h2&gt;
+&lt;p&gt;Innanzitutto, l’intelligenza artificiale, sebbene integrata nel processo delle tecnologie precedenti, non è sempre essenziale per realizzare casi d’uso. Infatti, se parliamo di tecnologie connesse (quindi Cloud), l’IA avrà i suoi usi. Tanto più che la complessità di alcuni casi d’uso, in particolare sulle informazioni da correlare per produrli, lo rende obbligatorio.
+Ad esempio, a volte è necessario confrontare più informazioni con azioni da svolgere, integrazione di servizi esterni o interni o banche dati da consultare.
+In altre parole, l’intelligenza artificiale è il caso d’uso stesso, l’azione concreta che risulterà dall’interfaccia vocale. A seconda del contesto di utilizzo e della natura dell’ordine, gli elementi richiesti ei risultati forniti saranno diversi.
+L’intelligenza artificiale è il fulcro in molte situazioni. Tuttavia, per le funzionalità embedded (quindi offline), le esigenze sono minori, più vicine alla realizzazione di semplici comandi come la navigazione su un’interfaccia o il report di azioni. Questo per avere casi d’uso specifici che non richiedono la consultazione di più informazioni.&lt;/p&gt;
+
+&lt;h2 id=&quot;come-testare-la-tecnologia-di-trascrizione-vocale&quot;&gt;Come testare la tecnologia di trascrizione vocale.&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; è una soluzione di trascrizione semplice ed efficiente. Trascrive fedelmente il parlato e funziona su un computer o uno smartphone. A differenza di altri prodotti, &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; consente di salvare tutti i testi trascritti in una directory e di accedervi da qualsiasi dispositivo.
+Prova gratuitamente la tecnologia di trascrizione vocale su &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoscrib.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Technologia" /><category term="Natural Language Processing" /><summary type="html">La facilità d&apos;uso del riconoscimento vocale non deve mettere in ombra le tecnologie avanzate che utilizza: algoritmo di riconoscimento vocale, capacità di rilevare accenti e dialetto, gestione del &apos;rumore di fondo&apos;, velocità di trascrizione del dettato...</summary></entry><entry><title type="html">Ecco perché dovresti usare l’intelligenza artificiale nelle tue riunioni.</title><link href="http://localhost:4000/Ecco-perch%C3%A9-dovresti-usare-l'intelligenza-artificiale-nelle-tue-riunioni/" rel="alternate" type="text/html" title="Ecco perché dovresti usare l’intelligenza artificiale nelle tue riunioni." /><published>2023-04-09T00:00:00+02:00</published><updated>2023-04-09T00:00:00+02:00</updated><id>http://localhost:4000/Ecco%20perch%C3%A9%20dovresti%20usare%20l&apos;intelligenza%20artificiale%20nelle%20tue%20riunioni</id><content type="html" xml:base="http://localhost:4000/Ecco-perch%C3%A9-dovresti-usare-l&apos;intelligenza-artificiale-nelle-tue-riunioni/">&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20230409-hero.jpg&quot; alt=&quot;réunion&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;figcaption style=&quot;color:grey; font-size:10px;&quot;&gt;Foto id &lt;a href=&quot;https://unsplash.com/@jasongoodman_youxventures&quot;&gt;Jason Goodman&lt;/a&gt; su &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Il 2023 ha già visto molte nuove innovazioni nell’IA. È più chiaro che mai che l’adozione di nuovi strumenti per riunioni &lt;a href=&quot;https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/&quot;&gt;IA&lt;/a&gt; può migliorare la collaborazione e la produttività in tutta l’organizzazione.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ecco alcuni motivi per cui dovresti prendere in considerazione l’integrazione dell’IA nella tua azienda:&lt;/p&gt;
+
+&lt;h2 id=&quot;migliore-efficienza&quot;&gt;Migliore efficienza&lt;/h2&gt;
+&lt;p&gt;Gli strumenti per riunioni basati sull’intelligenza artificiale possono automatizzare attività banali come la pianificazione, la trascrizione e l’organizzazione delle note delle riunioni, liberando tempo per attività più strategiche.&lt;/p&gt;
+
+&lt;h2 id=&quot;comunicazione-migliorata&quot;&gt;Comunicazione migliorata&lt;/h2&gt;
+&lt;p&gt;Gli strumenti basati sull’intelligenza artificiale possono migliorare l’accessibilità per i membri del team remoti e fornire sottotitoli e traduzioni in tempo reale, consentendo riunioni più inclusive.&lt;/p&gt;
+
+&lt;h2 id=&quot;processo-decisionale-migliorato&quot;&gt;Processo decisionale migliorato&lt;/h2&gt;
+&lt;p&gt;Gli approfondimenti sulle riunioni basati sull’intelligenza artificiale, come l’analisi del sentiment e l’identificazione dei relatori, possono fornire dati preziosi per informare il processo decisionale.&lt;/p&gt;
+
+&lt;h2 id=&quot;maggiore-coinvolgimento&quot;&gt;Maggiore coinvolgimento&lt;/h2&gt;
+&lt;p&gt;Le funzionalità basate sull’intelligenza artificiale come gli sfondi virtuali e la cancellazione del rumore possono migliorare l’esperienza della riunione e coinvolgere i partecipanti.&lt;/p&gt;
+
+&lt;p&gt;L’implementazione di strumenti per riunioni basati sull’intelligenza artificiale può essere un punto di svolta per le organizzazioni che desiderano aumentare la collaborazione e aumentare la produttività. È importante considerare attentamente le tue esigenze specifiche e scegliere strumenti che si integrino bene con i tuoi sistemi e processi esistenti. Adottando nuovi strumenti per riunioni basati sull’intelligenza artificiale, le organizzazioni possono liberare tutto il potenziale della tecnologia per promuovere la collaborazione e raggiungere i propri obiettivi.&lt;/p&gt;
+
+&lt;h2 id=&quot;come-testare-la-tecnologia-di-trascrizione-vocale&quot;&gt;Come testare la tecnologia di trascrizione vocale.&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; è una soluzione di trascrizione semplice ed efficiente. Trascrive fedelmente il parlato e funziona su un computer o uno smartphone. A differenza di altri prodotti, &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; consente di salvare tutti i testi trascritti in una directory e di accedervi da qualsiasi dispositivo.
+Prova gratuitamente la tecnologia di trascrizione vocale su &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoscrib.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Produttività" /><category term="Incontro" /><category term="Meeting" /><category term="AI" /><summary type="html">Il 2023 ha già visto molte nuove innovazioni nell&apos;IA. È più chiaro che mai che l&apos;adozione di nuovi strumenti per riunioni AI può migliorare la collaborazione e la produttività in tutta l&apos;organizzazione.</summary></entry><entry><title type="html">Lo stato del riconoscimento vocale</title><link href="http://localhost:4000/Lo-stato-del-riconoscimento-vocale/" rel="alternate" type="text/html" title="Lo stato del riconoscimento vocale" /><published>2023-04-03T00:00:00+02:00</published><updated>2023-04-03T00:00:00+02:00</updated><id>http://localhost:4000/Lo%20stato%20del%20riconoscimento%20vocale</id><content type="html" xml:base="http://localhost:4000/Lo-stato-del-riconoscimento-vocale/">&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20230403-hero.jpg&quot; alt=&quot;Una donna guarda il suo telefono mentre è seduta alla sua scrivania&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;figcaption style=&quot;color:grey; font-size:10px;&quot;&gt;Foto di &lt;a href=&quot;https://unsplash.com/@brucemars&quot;&gt;Bruce Mars&lt;/a&gt; su &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/&quot;&gt;La trascrizione dal suono al testo&lt;/a&gt;, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente. È una tecnologia che è diventata sempre più popolare negli ultimi anni grazie alle sue numerose applicazioni in vari campi.
+Questo post fornisce una panoramica dello sviluppo e dell’utilizzo della tecnologia nel 2023&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Uno degli usi principali della trascrizione da suono a testo è per la dettatura. Questa tecnologia è stata un punto di svolta per le persone che hanno bisogno di dettare documenti lunghi, come professionisti medici, avvocati e giornalisti. Permette loro di esprimere ad alta voce i loro pensieri e le loro idee mentre il software trascrive le loro parole in testo.&lt;/p&gt;
+
+&lt;p&gt;La trascrizione da suono a testo viene utilizzata anche nel campo dell’accessibilità. Per le persone non udenti o con problemi di udito, questa tecnologia può essere un vero toccasana. Consente loro di comprendere le parole pronunciate in tempo reale, il che può essere essenziale in molte situazioni, come riunioni di lavoro, aule o eventi pubblici.&lt;/p&gt;
+
+&lt;p&gt;Un’altra applicazione della trascrizione da suono a testo è nella traduzione linguistica. Con l’aiuto della tecnologia di riconoscimento vocale, le barriere linguistiche possono essere superate, consentendo a persone di paesi diversi di comunicare tra loro più facilmente. Ciò può essere particolarmente utile in settori come gli affari internazionali o la diplomazia.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20230403-caption.jpg&quot; alt=&quot;Una donna guarda il suo telefono mentre è seduta alla sua scrivania&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;figcaption style=&quot;color:grey; font-size:10px;&quot;&gt;Foto di &lt;a href=&quot;https://unsplash.com/@macroman&quot;&gt;Immo Wegmann&lt;/a&gt; su &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;La trascrizione da audio a testo può essere utilizzata anche per creare sottotitoli e didascalie per i video. Ciò è particolarmente importante per le persone non udenti o con problemi di udito, ma può essere utile anche per le persone che guardano video in ambienti rumorosi o per coloro che stanno imparando una nuova lingua.&lt;/p&gt;
+
+&lt;p&gt;Nonostante i suoi numerosi vantaggi, la trascrizione da suono a testo non è priva di limiti. Una delle maggiori sfide è la trascrizione accurata del parlato con accenti, dialetti o lingue diversi. Questo è un compito complesso che richiede algoritmi avanzati e modelli di apprendimento automatico per essere superato.&lt;/p&gt;
+
+&lt;p&gt;Nel complesso, la tecnologia di trascrizione da suono a testo ha rivoluzionato il modo in cui comunichiamo e interagiamo gli uni con gli altri. Ha reso le informazioni più accessibili a persone che potrebbero essere state precedentemente escluse da determinate attività o eventi e ha aperto nuove opportunità di scambio commerciale e culturale in tutto il mondo.&lt;/p&gt;
+
+&lt;h2 id=&quot;come-testare-la-tecnologia-di-trascrizione-vocale&quot;&gt;Come testare la tecnologia di trascrizione vocale.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; è una soluzione di trascrizione semplice ed efficiente. Trascrive fedelmente il parlato e funziona su un computer o uno smartphone. A differenza di altri prodotti, &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; consente di salvare tutti i testi trascritti in una directory e di accedervi da qualsiasi dispositivo.
+Prova gratuitamente la tecnologia di trascrizione vocale su &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoscrib.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="technologia" /><category term="trascrizione" /><summary type="html">La trascrizione dal suono al testo, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente.</summary></entry><entry><title type="html">Riconoscimento vocale: AI per le persone con difficoltà di apprendimento</title><link href="http://localhost:4000/Riconoscimento-vocale-AI-per-le-persone-con-difficolt%C3%A0-di-apprendimento/" rel="alternate" type="text/html" title="Riconoscimento vocale: AI per le persone con difficoltà di apprendimento" /><published>2023-03-28T00:00:00+02:00</published><updated>2023-03-28T00:00:00+02:00</updated><id>http://localhost:4000/Riconoscimento%20vocale%20AI%20per%20le%20persone%20con%20difficolt%C3%A0%20di%20apprendimento</id><content type="html" xml:base="http://localhost:4000/Riconoscimento-vocale-AI-per-le-persone-con-difficolt%C3%A0-di-apprendimento/">&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20230328-hero.webp&quot; alt=&quot;bolla di chat astratta&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;figcaption style=&quot;color:grey; font-size:10px;&quot;&gt;Foto di &lt;a href=&quot;https://unsplash.com/@lunarts&quot;&gt;Volodymyr Hryshchenko&lt;/a&gt; su &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/&quot;&gt;La tecnologia di trascrizione orale&lt;/a&gt; derivata dall’intelligenza artificiale (AI), chiamata anche riconoscimento vocale o dettatura assistita, consente di scrivere parole pronunciandole ad alta voce.
+È particolarmente utile per le persone con disgrafia o dislessia e altre difficoltà di apprendimento e di pensiero che influiscono sulla scrittura a mano.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;i-principi-della-trascrizione-orale&quot;&gt;I principi della trascrizione orale&lt;/h2&gt;
+
+&lt;p&gt;La tecnologia di trascrizione vocale converte le parole pronunciate in testo digitale. Pertanto, tutti possono scrivere parole pronunciandole ad alta voce. Ad esempio, i bambini possono utilizzare la dettatura automatica non solo per scrivere, ma anche per modificare e rivedere la propria scrittura, il tutto utilizzando la propria voce.&lt;/p&gt;
+
+&lt;h2 id=&quot;supporto-allapprendimento-efficace-per-le-persone-con-dislessia&quot;&gt;Supporto all’apprendimento efficace per le persone con dislessia&lt;/h2&gt;
+
+&lt;p&gt;Gli studenti che hanno difficoltà con la scrittura possono avere difficoltà a completare compiti, come saggi e presentazioni, e persino a scrivere e-mail. La dettatura automatica può aiutarli in diversi modi.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le persone con problemi motori possono scrivere più comodamente e con maggiore precisione. Ciò include i bambini che hanno difficoltà a digitare su una tastiera.&lt;/li&gt;
+  &lt;li&gt;Le persone con una calligrafia difficile da leggere possono utilizzare la trascrizione parlata per creare un testo più facile da capire per gli altri.&lt;/li&gt;
+  &lt;li&gt;I bambini che hanno difficoltà con l’ortografia possono pronunciare una parola o scriverla, quindi vedere come viene scritta sullo schermo.&lt;/li&gt;
+  &lt;li&gt;Gli studenti che pensano più velocemente di quanto possano scrivere a mano o digitare su una tastiera possono tradurre più facilmente tutti i loro pensieri in parole.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cosa-devi-sapere-per-utilizzare-correttamente-la-dettatura-automatica&quot;&gt;Cosa devi sapere per utilizzare correttamente la dettatura automatica&lt;/h2&gt;
+
+&lt;p&gt;La tecnologia di trascrizione è uno strumento potente e facile da usare. Bisogna conoscere alcuni semplici principi:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Il discorso deve essere chiaro e la pronuncia corretta. Se gli utenti borbottano o pronunciano male le parole, il testo dettato potrebbe non essere corretto. Questo può quindi essere un ostacolo per le persone che hanno difficoltà con la lingua parlata.&lt;/li&gt;
+  &lt;li&gt;In generale, la dettatura è più accurata se le frasi sono intere, non parole isolate. Le persone con velocità di elaborazione lente o difficoltà di apprendimento possono trarre vantaggio dalla dettatura in altri modi, ma possono avere difficoltà a pronunciare grandi gruppi di parole contemporaneamente.&lt;/li&gt;
+  &lt;li&gt;Molti insegnanti raccomandano ai bambini di iniziare scrivendo uno schema prima di scrivere un documento sotto dettatura. In effetti, quando i bambini dettano, a volte possono perdere di vista ciò che stanno scrivendo. Un piano aiuta i bambini a rimanere organizzati.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;come-testare-la-tecnologia-di-trascrizione-vocale&quot;&gt;Come testare la tecnologia di trascrizione vocale.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; è una soluzione di trascrizione semplice ed efficiente. Trascrive fedelmente il parlato e funziona su un computer o uno smartphone. A differenza di altri prodotti, &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoScrib&lt;/a&gt; consente di salvare tutti i testi trascritti in una directory e di accedervi da qualsiasi dispositivo.
+Prova gratuitamente la tecnologia di trascrizione vocale su &lt;a href=&quot;https://autoscrib.com/&quot;&gt;autoscrib.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="dyslexia" /><category term="dysgraphia" /><summary type="html">La tecnologia di trascrizione orale derivata dall&apos;intelligenza artificiale (AI), chiamata anche riconoscimento vocale o dettatura assistita, consente di scrivere parole pronunciandole ad alta voce. È particolarmente utile per le persone con disgrafia o dislessia e altri disturbi dell&apos;apprendimento e del pensiero che hanno un impatto sulla scrittura a mano.</summary></entry><entry><title type="html">7 modi per rendere le riunioni e i corsi di formazione più produttivi</title><link href="http://localhost:4000/7-modi-per-rendere-le-riunioni-e-i-corsi-di-formazione-pi%C3%B9-produttivi/" rel="alternate" type="text/html" title="7 modi per rendere le riunioni e i corsi di formazione più produttivi" /><published>2022-11-14T00:00:00+01:00</published><updated>2022-11-14T00:00:00+01:00</updated><id>http://localhost:4000/7%20modi%20per%20rendere%20le%20riunioni%20e%20i%20corsi%20di%20formazione%20pi%C3%B9%20produttivi</id><content type="html" xml:base="http://localhost:4000/7-modi-per-rendere-le-riunioni-e-i-corsi-di-formazione-pi%C3%B9-produttivi/">&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20221114-hero.jpg&quot; alt=&quot;più persone partecipano a una riunione intorno a un tavolo&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;figcaption style=&quot;color:grey; font-size:10px;&quot;&gt;Foto di &lt;a href=&quot;https://unsplash.com/it/@evangelineshaw&quot;&gt;Evangeline Shaw&lt;/a&gt; su &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;
+  &amp;lt;/a&amp;gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/&quot;&gt;la tecnologia di riconoscimento vocale&lt;/a&gt; sviluppata da autoScrib ti aiuta ad aumentare la tua produttività durante le tue riunioni, la formazione faccia a faccia o online, o anche i tuoi corsi o tutorial. Consente di prendere appunti in modo completo e istantaneo.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sapevi che quasi l’&lt;a href=&quot;https://www.dialpad.com/blog/video-conferencing-report/#time-spent-in-meetings&quot;&gt;84% dei professionisti trascorre 12 ore o meno&lt;/a&gt; ogni settimana in riunioni? La quantità di dati condivisi ogni giorno nelle videoconferenze e nelle riunioni dal vivo non è mai stata così grande. Il monitoraggio e la gestione delle informazioni diventa complicato.&lt;/p&gt;
+
+&lt;p&gt;È qui che può aiutarti una soluzione di trascrizione, chiamata anche riconoscimento vocale o dettatura automatica.&lt;/p&gt;
+
+&lt;p&gt;La conversione automatica da voce a testo ti consente di concentrarti sul contenuto, prendere appunti e risparmiare molto tempo nella ricerca di informazioni.&lt;/p&gt;
+
+&lt;p&gt;Ecco come.&lt;/p&gt;
+
+&lt;h2 id=&quot;migliora-la-qualità-dei-tuoi-appunti-trascrivi-il-parlato-in-modo-fedele-e-istantaneo&quot;&gt;Migliora la qualità dei tuoi appunti: trascrivi il parlato in modo fedele e istantaneo&lt;/h2&gt;
+
+&lt;p&gt;Seleziona facilmente le sorgenti audio.&lt;/p&gt;
+
+&lt;p&gt;Che tu sia in una riunione dal vivo o in una videoconferenza, autoScrib identificherà e trascriverà ogni parola per te.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20221114-Browser-select-IT.webp&quot; alt=&quot;Illustrazione del menu di selezione della sorgente audio&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;prendi-appunti-di-qualità-indipendentemente-dalla-lingua-parlata&quot;&gt;Prendi appunti di qualità indipendentemente dalla lingua parlata&lt;/h2&gt;
+
+&lt;p&gt;La trascrizione istantanea può anche aiutare nell’apprendimento di una lingua straniera. Puoi scegliere tra decine di lingue e dialetti. Ascolta e leggi contemporaneamente il testo in lingua straniera per capire meglio e imparare più velocemente.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20221114-lang-select IT.gif&quot; alt=&quot;Illustrazione del menu di selezione della lingua da trascrivere.&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;sii-efficace-in-qualsiasi-ambiente-leggi-il-testo-se-non-riesci-a-sentirlo&quot;&gt;Sii efficace in qualsiasi ambiente: leggi il testo se non riesci a sentirlo&lt;/h2&gt;
+
+&lt;p&gt;autoScrib fornisce sottotitoli istantanei a tutti i video, indipendentemente dalla piattaforma. Trascrizioni di alta qualità vengono generate utilizzando la tecnologia dell’intelligenza artificiale.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20221114-speaker.gif&quot; alt=&quot;Screenshot di un video e dei suoi sottotitoli creati automaticamente da autoScrib.&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;semplifica-larchiviazione-delle-tue-note-e-rendile-più-facili-da-trovare&quot;&gt;Semplifica l’archiviazione delle tue note e rendile più facili da trovare&lt;/h2&gt;
+
+&lt;p&gt;Le trascrizioni vengono salvate in un unico posto, accessibile da qualsiasi dispositivo, anche offline. L’editor autoScrib ti consente di aggiungere le tue note.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20221114-content-shot-it.webp&quot; alt=&quot;Screenshot della pagina che mostra il set di trascrizioni disponibili su autoScrib.&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;condividi-le-tue-note-in-modo-semplice-e-in-molti-formati&quot;&gt;Condividi le tue note in modo semplice e in molti formati&lt;/h2&gt;
+
+&lt;p&gt;Memorizza le trascrizioni in molti formati, inclusi i file audio. Condividi sui social network utilizzando il pulsante “Condividi”.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20221114-share-options-it.webp&quot; alt=&quot;Condividi le trascrizioni in molte lingue.&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;rendi-autoscrib-un-esperto-con-temi&quot;&gt;Rendi autoScrib un esperto con “Temi”&lt;/h2&gt;
+
+&lt;p&gt;Parole tecniche o molto rare possono essere omesse o trascritte male. I temi ti consentono di aggiungere parole che ti aspetti di sentire. In caso di dubbio, autoScrib farà riferimento all’elenco e selezionerà la voce più appropriata.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/posts/20221114-theme-it.webp&quot; alt=&quot;Crea temi per migliorare la precisione della trascrizione.&quot; class=&quot;full&quot; loading=&quot;lazy&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;inizia-gratuitamente-senza-impegno-o-carta-di-credito&quot;&gt;Inizia gratuitamente, senza impegno o carta di credito&lt;/h2&gt;
+
+&lt;p&gt;A presto su &lt;a href=&quot;https://autoscrib.com&quot;&gt;autoScrib.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Produttività" /><category term="Formazione" /><summary type="html">La tecnologia di riconoscimento vocale sviluppata da autoScrib ti aiuta ad aumentare la tua produttività durante le riunioni, la formazione faccia a faccia o online, o anche le lezioni o i tutorial. Consente di prendere appunti in modo completo e istantaneo.</summary></entry></feed>
