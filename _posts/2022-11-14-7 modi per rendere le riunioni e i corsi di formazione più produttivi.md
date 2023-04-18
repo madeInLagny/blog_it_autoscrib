@@ -17,7 +17,7 @@ image_path: "/assets/images/posts/20221114-hero.jpg"
   </figcaption>
 </figure>
 
-_la tecnologia di riconoscimento vocale sviluppata da autoScrib ti aiuta ad aumentare la tua produttività durante le tue riunioni, la formazione faccia a faccia o online, o anche i tuoi corsi o tutorial. Consente di prendere appunti in modo completo e istantaneo._
+_[la tecnologia di riconoscimento vocale](https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/) sviluppata da autoScrib ti aiuta ad aumentare la tua produttività durante le tue riunioni, la formazione faccia a faccia o online, o anche i tuoi corsi o tutorial. Consente di prendere appunti in modo completo e istantaneo._
 
 
 

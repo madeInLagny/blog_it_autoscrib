@@ -16,7 +16,7 @@ image_path: "/assets/images/posts/20230403-hero.jpg"
   </figcaption>
 </figure>
 
-_La trascrizione dal suono al testo, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente. È una tecnologia che è diventata sempre più popolare negli ultimi anni grazie alle sue numerose applicazioni in vari campi.
+_[La trascrizione dal suono al testo](https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/), aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente. È una tecnologia che è diventata sempre più popolare negli ultimi anni grazie alle sue numerose applicazioni in vari campi.
 Questo post fornisce una panoramica dello sviluppo e dell'utilizzo della tecnologia nel 2023_
 
 Uno degli usi principali della trascrizione da suono a testo è per la dettatura. Questa tecnologia è stata un punto di svolta per le persone che hanno bisogno di dettare documenti lunghi, come professionisti medici, avvocati e giornalisti. Permette loro di esprimere ad alta voce i loro pensieri e le loro idee mentre il software trascrive le loro parole in testo.

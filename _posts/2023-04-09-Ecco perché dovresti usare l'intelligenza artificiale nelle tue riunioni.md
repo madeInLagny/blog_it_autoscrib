@@ -18,7 +18,7 @@ image_path: "/assets/images/posts/20230409-hero.jpg"
   </figcaption>
 </figure>
 
-_Il 2023 ha già visto molte nuove innovazioni nell'IA. È più chiaro che mai che l'adozione di nuovi strumenti per riunioni AI può migliorare la collaborazione e la produttività in tutta l'organizzazione._
+_Il 2023 ha già visto molte nuove innovazioni nell'IA. È più chiaro che mai che l'adozione di nuovi strumenti per riunioni [IA](https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/) può migliorare la collaborazione e la produttività in tutta l'organizzazione._
 
 Ecco alcuni motivi per cui dovresti prendere in considerazione l'integrazione dell'IA nella tua azienda:
 

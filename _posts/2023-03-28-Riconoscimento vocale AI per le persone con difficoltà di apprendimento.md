@@ -17,7 +17,7 @@ image_path: "/assets/images/posts/20230328-hero.webp"
   </figcaption>
 </figure>
 
-_La tecnologia di trascrizione orale derivata dall'intelligenza artificiale (AI), chiamata anche riconoscimento vocale o dettatura assistita, consente di scrivere parole pronunciandole ad alta voce.
+_[La tecnologia di trascrizione orale](https://it.blog.autoscrib.com/Ecco-cosa-rende-un-buon-assistente-vocale/) derivata dall'intelligenza artificiale (AI), chiamata anche riconoscimento vocale o dettatura assistita, consente di scrivere parole pronunciandole ad alta voce.
 È particolarmente utile per le persone con disgrafia o dislessia e altre difficoltà di apprendimento e di pensiero che influiscono sulla scrittura a mano._
 
 ## I principi della trascrizione orale
