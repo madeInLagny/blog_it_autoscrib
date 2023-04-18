@@ -1,6 +1,7 @@
 ---
 title: "Riconoscimento vocale: AI per le persone con difficoltà di apprendimento"
 show_date: true
+last_modified_at: 2023-04-18
 excerpt: "La tecnologia di trascrizione orale derivata dall'intelligenza artificiale (AI), chiamata anche riconoscimento vocale o dettatura assistita, consente di scrivere parole pronunciandole ad alta voce.
 È particolarmente utile per le persone con disgrafia o dislessia e altri disturbi dell'apprendimento e del pensiero che hanno un impatto sulla scrittura a mano."
 tags:

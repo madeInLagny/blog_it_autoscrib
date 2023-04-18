@@ -1,5 +1,6 @@
 ---
 title: "7 modi per rendere le riunioni e i corsi di formazione più produttivi"
+last_modified_at: 2023-04-18
 show_date: true
 excerpt: "La tecnologia di riconoscimento vocale sviluppata da autoScrib ti aiuta ad aumentare la tua produttività durante le riunioni, la formazione faccia a faccia o online, o anche le lezioni o i tutorial. Consente di prendere appunti in modo completo e istantaneo."
 tags:

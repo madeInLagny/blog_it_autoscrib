@@ -1,6 +1,7 @@
 ---
 title: "Ecco perché dovresti usare l'intelligenza artificiale nelle tue riunioni."
 show_date: true
+last_modified_at: 2023-04-18
 excerpt: "Il 2023 ha già visto molte nuove innovazioni nell'IA. È più chiaro che mai che l'adozione di nuovi strumenti per riunioni AI può migliorare la collaborazione e la produttività in tutta l'organizzazione."
 tags:
   - Produttività

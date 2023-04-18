@@ -1,6 +1,7 @@
 ---
 title: "Ecco cosa rende un buon assistente vocale"
 show_date: true
+last_modified_at: 2023-04-18
 excerpt: "La facilità d'uso del riconoscimento vocale non deve mettere in ombra le tecnologie avanzate che utilizza: algoritmo di riconoscimento vocale, capacità di rilevare accenti e dialetto, gestione del 'rumore di fondo', velocità di trascrizione del dettato..."
 tags:
   - Technologia

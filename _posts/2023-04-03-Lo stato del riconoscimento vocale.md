@@ -1,6 +1,7 @@
 ---
 title: "Lo stato del riconoscimento vocale"
 show_date: true
+last_modified_at: 2023-04-18
 excerpt: "La trascrizione dal suono al testo, aka sintesi vocale o riconoscimento vocale, è il processo di conversione delle parole pronunciate in testo scritto, utilizzato principalmente per prendere appunti automaticamente."
 tags:
   - technologia
