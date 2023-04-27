@@ -28,4 +28,10 @@ var store = [{
         "tags": ["Technologia","Natural Language Processing"],
         "url": "/Ecco-cosa-rende-un-buon-assistente-vocale/",
         "teaser": "/assets/images/posts/20230418-hero.jpg"
+      },{
+        "title": "Dettare invece di scrivere o come lavorare in modo più efficiente e in condizioni migliori.",
+        "excerpt":"Foto di Matt Botsford su Unsplash La dettatura vocale è una tecnologia entusiasmante, che aiuta le persone con problemi di scrittura. Le persone possono utilizzare questa tecnologia per pronunciare parole, che vengono poi convertite in scrittura. Tecnologia di dettatura è un altro termine per voice to text e speech to...","categories": [],
+        "tags": ["Technologia","Natural Language Processing"],
+        "url": "/Dettare-invece-di-scrivere-o-come-lavorare-in-modo-pi%C3%B9-efficiente-e-in-condizioni-migliori",
+        "teaser": "/assets/images/posts/20230427-hero.jpg"
       }]
