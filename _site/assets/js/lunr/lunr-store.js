@@ -34,4 +34,10 @@ var store = [{
         "tags": ["Technologia","Natural Language Processing"],
         "url": "/Dettare-invece-di-scrivere-o-come-lavorare-in-modo-pi%C3%B9-efficiente-e-in-condizioni-migliori",
         "teaser": "/assets/images/posts/20230427-hero.jpg"
+      },{
+        "title": "7 motivi per utilizzare il riconoscimento vocale nell'istruzione.",
+        "excerpt":"Foto di Malte Helmhold su Unsplash Reso popolare da applicazioni di assistente personale come Siri o Alexa, tecnologia vocale diventa più economico e veloce e offre possibilità di utilizzo in sempre più campi e industrie. Ecco 7 dei casi d’uso più comuni nell’apprendimento e nell’istruzione. Cos’è il riconoscimento vocale per...","categories": [],
+        "tags": ["Technologia","Istruzione"],
+        "url": "/7-motivi-per-utilizzare-il-riconoscimento-vocale-nell'istruzione/",
+        "teaser": "/assets/images/posts/20230506-hero.jpg"
       }]
